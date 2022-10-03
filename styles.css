@@ -50,7 +50,14 @@ background: #fff;
 h1 {
 color: #fff;
 font-family: 'Poppins', sans-serif;
-font-size: 48px;
+font-size: 86px;
 font-weight: bolder;
+letter-spacing: normal;
+}
+h3 {
+color: #fff;
+font-family: 'Poppins', sans-serif;
+font-size: 48px;
+font-weight: normal;
 letter-spacing: normal;
 }
