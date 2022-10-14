@@ -28,13 +28,13 @@ a
   margin: auto;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rbga(0, 0, 0, 1) rgba (0, 0, 0, 0));
 }
 .widthLimiter
 {
   width: 400px;
   max-width: 100%;
   margin: auto;
+  vertical-align: middle;
 }
 .treeElement
 {
@@ -55,7 +55,7 @@ a
 .treeImage
 {
   max-height: 1em;
-  vertical-align: center;
+  vertical-align: auto;
 }
 .subtitle
 {
