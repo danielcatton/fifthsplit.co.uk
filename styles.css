@@ -1,111 +1,75 @@
 /* CSS Document */
-body {
-color: #fff;
-font-family: 'Poppins', sans-serif;
-font-size: 15px;
-letter-spacing: 4px;
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Regular.ttf" format="truetype");
 }
-img {
-border-radius: 50%;
-}
-.profile-picture {
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 5%;
-height: auto;
-max-width: 100px;
-}
-.profile-name {
-text-align: center;
-padding: 30px;
-}
-.links {
-text-align: center;
-margin-top: 20px;
-padding: 20px;
-border: 1px solid white;
-border-width: 2px;
-width: 290px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-border-radius: 40px;
-}
-a {
-text-decoration: none;
+html, body
+{
+margin: 0;
+padding: 0;
+background-color: black;
+background-image: url('assets/indexBackground.png');
 color: white;
-transition: color 1s;
-}
-.bottom-text {
-text-align: center;
-margin-top: 40px;
-font-size: 15px;
-font-weight: normal;
-}
-a:hover {
-color: #000;
-background: #fff;
-}
-h1 {
-color: #fff;
+height: 100%;
 font-family: 'Poppins', sans-serif;
-font-size: 86px;
-font-weight: bolder;
-letter-spacing: normal;
 text-align: center;
 }
-h3 {
-color: #fff;
-font-family: 'Poppins', sans-serif;
-font-size: 24px;
-font-weight: normal;
-letter-spacing: normal;
-text-align: center;
+.logo
+{
+  width: 100px;
+  display: block;
+  margin: auto;
 }
-.header {
-    overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
-  }
-  
-  .header a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-  }
-  
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  .header a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .header a.active {
-    background-color: dodgerblue;
-    color: white;
-  }
-  
-  .header-right {
-    float: right;
-  }
-  
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
+a
+{
+  color: white;
+  text-decoration: none;
+  transition: text-decoration 0.25s;
+}
+.vcenter
+{
+  border-collapse: collapse;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rbga(0, 0, 0, 1) rgba (0, 0, 0, 0));
+}
+.widthLimiter
+{
+  width: 400px;
+  max-width: 100%;
+  margin: auto;
+}
+.treeElement
+{
+  border: 2px white solid;
+  padding: 0.5em;
+  text-align: center;
+  margin: 0.5em;
+  transition: background 0.25s;
+}
+.treeElement:hover
+{
+  background: rgba(255, 255, 255, 0.25);
+}
+.treeElement:active
+{
+  background: rgba(255, 255, 255, 0.125);
+}
+.treeImage
+{
+  max-height: 1em;
+  vertical-align: center;
+}
+.subtitle
+{
+  font-size: 9pt;
+}
+.subtitle a:hover
+{
+text-decoration: underline;
+}
+.subtitle a:active
+{
+  color: #c0c0c0
+}
