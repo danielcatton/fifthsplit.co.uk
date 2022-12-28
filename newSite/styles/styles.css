@@ -113,6 +113,7 @@ p {
 
 img {
     border: 5px #24252A;
+    border-radius: 8px;
     padding: 3px;
     margin: 5px;
 }
