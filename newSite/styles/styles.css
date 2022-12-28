@@ -65,7 +65,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(0, 26, 156);
+    background-color: rgba(0, 26, 156, 1);
 }
 
 h1 {
