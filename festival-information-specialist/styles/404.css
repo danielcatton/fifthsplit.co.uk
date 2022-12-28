@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
 }
 
 main {
@@ -12,6 +11,9 @@ main {
     padding-right: 15%;
     padding-top: 2%;
     background-image: url('/festival-information-specialist/images/404.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 li, a, button {
