@@ -90,12 +90,14 @@ h1 {
     font-size: 4em;
     font-weight: bold;
     font-style: italic;
+    color: #ecf0f1;
 }
 
 p {
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-size: 1.1em;
     font-weight: 400;
+    color: #ecf0f1;
 }
 
 #page-container {
