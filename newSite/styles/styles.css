@@ -110,3 +110,9 @@ p {
     width: 100%;
     height: 2.5rem;            /* Footer height */
   }
+
+img {
+    border: 5px #24252A;
+    padding: 3px;
+    margin: 5px;
+}
