@@ -27,6 +27,7 @@ header {
     cursor: pointer;
     max-height: 100px;
     max-width: 100px;
+    background-color: #24252A;
 }
 
 .nav__links {
