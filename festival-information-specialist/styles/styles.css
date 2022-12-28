@@ -121,5 +121,6 @@ img {
 table {
     text-align: left;
     vertical-align: middle;
-    max-width: 50em
+    max-width: 50em;
+    font-family: "Atkinson Hyperlegible", sans-serif;
 }
