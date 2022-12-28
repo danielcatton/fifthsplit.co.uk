@@ -30,6 +30,14 @@ header {
     background-color: #24252A;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 15px 15%;
+    background-color: #24252A;
+}
+
 .logo {
     cursor: pointer;
     max-height: 50px;
