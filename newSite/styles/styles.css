@@ -7,7 +7,7 @@
     background-color: #ffffff;
 }
 
-body {
+main {
     margin: 15px;
 }
 
@@ -21,7 +21,6 @@ li, a, button {
 }
 
 header {
-    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
