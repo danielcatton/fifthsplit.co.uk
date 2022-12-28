@@ -121,4 +121,5 @@ img {
 table {
     text-align: left;
     vertical-align: middle;
+    max-width: 50em
 }
