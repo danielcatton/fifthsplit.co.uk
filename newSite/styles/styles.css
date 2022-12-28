@@ -114,6 +114,6 @@ p {
 img {
     border: 5px solid #24252A;
     border-radius: 8px;
-    padding: 3px;
-    margin: 5px;
+    padding: 0px;
+    margin: 0px;
 }
