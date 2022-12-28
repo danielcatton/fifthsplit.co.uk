@@ -62,6 +62,12 @@ button {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    color: #ecf0f1;
+    text-decoration: none;
 }
 
 button:hover {
