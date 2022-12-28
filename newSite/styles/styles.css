@@ -2,9 +2,13 @@
 
 * {
     box-sizing: border-box;
-    margin: 15px;
+    margin: 0;
     padding: 0;
     background-color: #ffffff;
+}
+
+body {
+    margin: 15px;
 }
 
 li, a, button {
@@ -17,6 +21,7 @@ li, a, button {
 }
 
 header {
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
