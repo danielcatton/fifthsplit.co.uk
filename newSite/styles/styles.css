@@ -57,7 +57,7 @@ header {
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 139, 1);
+    background-color: rgba(0, 139, 192, 1);
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -65,7 +65,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0, 136, 139, 0.8);
+    background-color: rgba(0, 139, 192, 0.8);
 }
 
 h1 {
