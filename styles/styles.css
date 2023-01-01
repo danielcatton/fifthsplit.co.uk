@@ -95,6 +95,12 @@ h2 {
     color: #ffffff;
 }
 
+h3 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: #ffffff; 
+}
 
 p {
     font-family: 'Zilla Slab', serif;
