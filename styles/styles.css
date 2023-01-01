@@ -57,7 +57,7 @@ main {
 }
 
 li, a, button {
-    font-family: "charterbold_italic", sans-serif;
+    font-family: "charterbold", sans-serif;
     font-weight: 400;
     font-size: 1em;
     color: #ecf0f1;
@@ -113,7 +113,7 @@ button {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-family: "charterbold", sans-serif;
     font-weight: bold;
     font-style: italic;
     font-size: 1.1em;
