@@ -46,8 +46,8 @@
 
 @font-face {
     font-family: 'classic_cobraregular';
-    src: url('classiccobra-webfont.woff2') format('woff2'),
-         url('classiccobra-webfont.woff') format('woff');
+    src: url('/fonts/classiccobra-webfont.woff2') format('woff2'),
+         url('/fonts/classiccobra-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -58,8 +58,8 @@
 
 @font-face {
     font-family: 'classic_cobra_extra-condXCnIt';
-    src: url('classiccobraxtracondital-webfont.woff2') format('woff2'),
-         url('classiccobraxtracondital-webfont.woff') format('woff');
+    src: url('/fonts/classiccobraxtracondital-webfont.woff2') format('woff2'),
+         url('/fonts/classiccobraxtracondital-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -150,11 +150,13 @@ button:hover {
 h1 {
     font-family: "classic_cobraregular", sans-serif;
     font-size: 4em;
+    font-weight: bold;
 }
 
 h2 {
     font-family: "classic_cobraregular", sans-serif;
     font-size: 3em;
+    font-weight: bold;
 }
 
 
