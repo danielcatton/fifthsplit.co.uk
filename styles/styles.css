@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #1a1a1a;
 }
 
 main {
@@ -85,12 +85,14 @@ h1 {
     font-family: 'Zilla Slab', serif;
     font-size: 4em;
     font-weight: 700;
+    color: #ffffff;
 }
 
 h2 {
     font-family: 'Zilla Slab', serif;
     font-size: 3em;
     font-weight: 700;
+    color #ffffff;
 }
 
 
@@ -98,6 +100,7 @@ p {
     font-family: 'Zilla Slab', serif;
     font-size: 1.1em;
     font-weight: 300;
+    color: #ffffff;
 }
 
 #page-container {
@@ -128,5 +131,6 @@ table {
     vertical-align: middle;
     max-width: 50em;
     font-family: 'Zilla Slab', serif;
+    color: #ffffff;
     border-spacing: 1.1em
 }
