@@ -1,4 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;1,700&display=swap');
+@font-face {
+    font-family: 'charterbold';
+    src: url('/fonts/charter_bold-webfont.woff2') format('woff2'),
+         url('/fonts/charter_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'charterbold_italic';
+    src: url('/fonts/charter_bold_italic-webfont.woff2') format('woff2'),
+         url('/fonts/charter_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'charteritalic';
+    src: url('/fonts/charter_italic-webfont.woff2') format('woff2'),
+         url('/fonts/charter_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'charterregular';
+    src: url('/fonts/charter_regular-webfont.woff2') format('woff2'),
+         url('/fonts/charter_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 * {
     box-sizing: border-box;
@@ -14,7 +57,7 @@ main {
 }
 
 li, a, button {
-    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-family: "charterbold_italic", sans-serif;
     font-weight: 400;
     font-size: 1em;
     color: #ecf0f1;
@@ -83,14 +126,14 @@ button:hover {
 }
 
 h1 {
-    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-family: "charterbold", sans-serif;
     font-size: 4em;
     font-weight: bold;
     font-style: italic;
 }
 
 p {
-    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-family: "charter", sans-serif;
     font-size: 1.1em;
     font-weight: 400;
 }
@@ -122,6 +165,6 @@ table {
     text-align: left;
     vertical-align: middle;
     max-width: 50em;
-    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-family: "charter", sans-serif;
     border-spacing: 1.1em
 }
