@@ -1,70 +1,4 @@
-@font-face {
-    font-family: 'charterbold';
-    src: url('/fonts/charter_bold-webfont.woff2') format('woff2'),
-         url('/fonts/charter_bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'charterbold_italic';
-    src: url('/fonts/charter_bold_italic-webfont.woff2') format('woff2'),
-         url('/fonts/charter_bold_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'charteritalic';
-    src: url('/fonts/charter_italic-webfont.woff2') format('woff2'),
-         url('/fonts/charter_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'charterregular';
-    src: url('/fonts/charter_regular-webfont.woff2') format('woff2'),
-         url('/fonts/charter_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'classic_cobraregular';
-    src: url('/fonts/classiccobra-webfont.woff2') format('woff2'),
-         url('/fonts/classiccobra-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'classic_cobra_extra-condXCnIt';
-    src: url('/fonts/classiccobraxtracondital-webfont.woff2') format('woff2'),
-         url('/fonts/classiccobraxtracondital-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,700;0,900;1,400;1,700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -80,7 +14,7 @@ main {
 }
 
 li, a, button {
-    font-family: "charterbold", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     font-size: 1em;
     color: #ecf0f1;
@@ -136,7 +70,7 @@ button {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    font-family: "charterbold", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-weight: bold;
     font-size: 1.1em;
     color: #ecf0f1;
@@ -148,20 +82,20 @@ button:hover {
 }
 
 h1 {
-    font-family: "classic_cobraregular", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 4em;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 h2 {
-    font-family: "classic_cobraregular", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 3em;
     font-weight: bold;
 }
 
 
 p {
-    font-family: "charter", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 1.1em;
     font-weight: 400;
 }
@@ -193,6 +127,6 @@ table {
     text-align: left;
     vertical-align: middle;
     max-width: 50em;
-    font-family: "charter", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     border-spacing: 1.1em
 }
