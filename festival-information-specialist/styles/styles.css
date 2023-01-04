@@ -13,21 +13,13 @@ main {
     padding-top: 2%;
 }
 
-li, button {
-    font-family: 'Atkinson Hyperlegible', serif;
+li, a, button {
+    font-family: "Atkinson Hyperlegible", sans-serif;
     font-weight: 400;
     font-size: 1em;
     color: #ecf0f1;
     text-decoration: none;
     background-color: #24252A;
-}
-
-a {
-    font-family: 'Atkinson Hyperlegible', serif;
-    font-weight: 400;
-    font-size: 1em;
-    color: #ecf0f1;
-    text-decoration: none;
 }
 
 header {
