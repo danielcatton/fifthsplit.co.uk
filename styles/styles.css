@@ -13,13 +13,21 @@ main {
     padding-top: 2%;
 }
 
-li, a, button {
+li, button {
     font-family: 'Zilla Slab', serif;
     font-weight: 400;
     font-size: 1em;
     color: #ecf0f1;
     text-decoration: none;
     background-color: #24252A;
+}
+
+a {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ecf0f1;
+    text-decoration: none;
 }
 
 header {
