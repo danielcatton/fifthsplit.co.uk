@@ -13,6 +13,14 @@ main {
     padding-top: 2%;
 }
 
+h2 {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
 li, a, button {
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-weight: 400;
@@ -88,15 +96,6 @@ h1 {
     font-weight: bold;
     font-style: italic;
 }
-
-h2 {
-    font-family: "Atkinson Hyperlegible", sans-serif;
-    font-size: 2.5em;
-    font-weight: bold;
-    font-style: italic;
-    color: black;
-}
-
 
 p {
     font-family: "Atkinson Hyperlegible", sans-serif;
