@@ -13,7 +13,7 @@ main {
     padding-top: 2%;
 }
 
-li, a, button {
+li, button {
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-weight: 400;
     font-size: 1em;
