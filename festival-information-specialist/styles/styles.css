@@ -152,6 +152,7 @@ table {
     display: flex;
     align-items: right;
     justify-content: space-evenly;
+    background-color: #24252A;
 }
 
 .icon {
