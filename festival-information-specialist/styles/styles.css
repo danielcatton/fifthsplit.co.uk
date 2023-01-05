@@ -157,4 +157,8 @@ table {
 .icon {
     height: 80%;
     aspect-ratio: 1;
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
 }
