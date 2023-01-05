@@ -40,7 +40,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: right;
-    padding: 15px 15%;
+    padding-left: 15%;
     background-color: #24252A;
 }
 
@@ -116,7 +116,7 @@ p {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
+    height: 3em;            /* Footer height */
   }
 
 img {
