@@ -8,12 +8,12 @@ body {
 
 h1 {
 font-family: 'Sofia Sans', sans-serif;
-font-size: clamp(2rem, 10vw+1rem, 7rem);
+font-size: clamp(5rem, 10vw+1rem, 7rem);
 font-weight: 700;
 }
 
 h2 {
     font-family: 'Sofia Sans', sans-serif;
-    font-size: clamp(2rem, 5vw+1rem, 7rem);
+    font-size: clamp(3rem, 5vw+1rem, 7rem);
     font-weight: 400;
 }
