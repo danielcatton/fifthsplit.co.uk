@@ -2,16 +2,19 @@
 
 body {
 margin: 5vw;
+background-color: #000000;
 }
 
 h1 {
 font-family: 'Sofia Sans', sans-serif;
 font-size: clamp(5rem, 10vw+1rem, 7rem);
 font-weight: 700;
+color: #ffffff;
 }
 
 h2 {
     font-family: 'Sofia Sans', sans-serif;
     font-size: clamp(3rem, 5vw+1rem, 7rem);
     font-weight: 400;
+    color: #ffffff;
 }
