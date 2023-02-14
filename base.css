@@ -18,3 +18,10 @@ h2 {
     font-weight: 400;
     color: #ffffff;
 }
+
+p {
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: clamp(2rem, 3vw+1rem, 5rem);
+    font-weight: 400;
+    color: #ffffff;
+}
