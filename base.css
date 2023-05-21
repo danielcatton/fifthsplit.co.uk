@@ -19,6 +19,7 @@ nav {
 }
 
 label.logo {
+    max-inline-size: 20%;
 }
 
 nav ul {
