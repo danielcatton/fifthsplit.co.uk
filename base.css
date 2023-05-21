@@ -18,10 +18,9 @@ nav {
     width: 100%;
 }
 
-label.logo img{
+.logo {
     max-height: 55px;
     max-width: fit-content;
-
 }
 
 nav ul {
