@@ -19,7 +19,8 @@ nav {
 }
 
 label.logo {
-    max-inline-size: 20%;
+    max-height: 55px;
+    max-width: fit-content;
 }
 
 nav ul {
