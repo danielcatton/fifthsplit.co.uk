@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
 body {
-margin: 5vw;
-background-color: #000000;
+    font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
-h1 {
-font-family: 'Sofia Sans', sans-serif;
-font-size: clamp(5rem, 10vw+1rem, 7rem);
-font-weight: 700;
-color: #ffffff;
+nav {
+    background: #1d262d;
+    height: 80px;
+    width: 100%;
 }
 
-h2 {
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: clamp(3rem, 5vw+1rem, 7rem);
-    font-weight: 400;
-    color: #ffffff;
+label.logo {
+
 }
 
-p {
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: clamp(2rem, 3vw+1rem, 5rem);
-    font-weight: 400;
-    color: #ffffff;
+nav.ul {
+
 }
