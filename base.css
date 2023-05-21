@@ -16,13 +16,13 @@ nav {
     background: #1d262d;
     height: 80px;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
     max-height: 55px;
     max-width: fit-content;
-    display: flex;
-    align-items: center;
 }
 
 nav ul {
